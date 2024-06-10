@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAY THE NAME! SEVENTEEN</title>
+    <link href="./images/LOGOBLACK.svg" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- paperfirework -->
+    <style>
+        canvas{z-index: 10; pointer-events: none; position: fixed; top: 0; transform: scale(1.1);}
+    </style>
+    <!-- grind slide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+    <!-- OSWALD FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <!-- gowon batang font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap" rel="stylesheet">
+    <!-- nanum myeongjo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <!-- poor font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    <!-- noto sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <script>
+        $(document).ready(function(){
+          $(".slider").bxSlider({
+            controls: false,
+            auto: true,
+            pause: 3000,
+            speed:1000,
+            pager: false,
+        });     
+    });
+    </script>
+    <!--    adaptiveHeight: true, -->
+</head>
+
+<body>
+
+    <header>
+        <!-- 상단바 및 토글 -->
+        <nav>
+            <img class="b_logo" src="./images/LOGOBLACK.svg" alt="">
+            <img src="./images/seventeenword.png"  alt="">
+            <input type="checkbox" id="toggle_menu_btn">
+            <label id="toggle" for="toggle_menu_btn">
+                <img src="./images/menu1.png" alt="toggle menu button">
+            </label>
+            <ul id="toggle_menu">
+                <li><a href="#second">PROFILE</a></li>
+                <li><a href="#third">DISCOGRAPHY</a></li>
+                <li><a href="#fourth">VIDEO</a></li>
+                <li><a href="#five">GALLERY</a></li>
+                <li><a href="#">NOTICE</a></li>
+                <div id="mstickyBar" class="mstick_img">
+                    <a href="https://www.youtube.com/user/pledis17" target="_blank"><img src="./images/youtube.svg" alt=""></a>
+                    <a href="https://twitter.com/pledis_17" target="_blank"><img src="./images/twitter.svg" alt=""></a>
+                    <a href="https://www.facebook.com/seventeennews" target="_blank"><img src="./images/facebook.svg" alt="facebook"></a>
+                    <a href="https://www.instagram.com/saythename_17/" target="_blank"><img src="./images/insta.svg" alt=""></a>
+                    <a href="https://cafe.daum.net/pledis-17" target="_blank"><img src="./images/fan.svg" alt=""></a>
+                    <a href="https://weverse.io/seventeen/feed" target="_blank"><img src="./images/weverse.svg" alt=""></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="first">
+        <!-- bxslider photo -->
+        <div class="slider">
+            <div><img src="./images/2.jpg" alt="everyone2"></div>
+            <div><img src="./images/3.jpg" alt="everyone3"></div>
+            <div><img src="./images/4.jpg" alt="everyone4"></div>
+            <div><img src="./images/1.jpg" alt="everyone1"></div>
+            <div><img src="./images/5.jpg" alt="everyone5"></div>
+        </div>
+    </section>
+
+    <section id="second">
+        <h3>Profile</h3>
+            <div class="line">
+                <!-- 단체멤버 -->
+                <div id="group">
+                    <!-- image -->
+                    <div class="box01">
+                        <button><img src="./images/1.jpg" style="width: 100%;" alt="every"></button>
+                        <!-- 소개 글 -->  
+                        <p>세븐틴은 2015년 5월 26일 데뷔한 플레디스엔터테인먼트</br>
+                            소속 대한민국 13인조 다국적 보이그룹이다.</br>
+                            그룹명 때문에 흔히 멤버가 17명일거라고 오해를 받지만</br>
+                            13명의 멤버 + 3개의 유닛 + 하나의 팀 (1) = 17(SEVENTEEN)</br>
+                            이라는 의미를 갖고 있다.<br/><a href="https://namu.wiki/w/%EC%84%B8%EB%B8%90%ED%8B%B4" target="_blank">더보기...</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- 개인멤버 -->
+                <div id="member">
+                    <!--멤버들 이미지 -->
+                    <div class="box01">
+                    <button><img src="./images/scoups1.png" alt=""></button>
+                    <p>이름 : S.COUPS(최승철)<br/>
+                    포지션 : 총괄리더, 힙합팀 리더, 래퍼<br/>
+                    MBTI : INFP<br/><a href="https://namu.wiki/w/%EC%97%90%EC%8A%A4%EC%BF%B1%EC%8A%A4" target="_blank">더보기</a></p>
+                    </div>
+                    <div class="box01">
+                    <button><img src="./images/jung1.png"  alt=""></button>
+                    <p>이름 : JEONGHAN<br/>(윤정한)<br/>
+                    포지션 : 부리더,<br/>보컬팀, 서브보컬<br/>
+                    MBTI : ISFJ<br/><a href="https://namu.wiki/w/%EC%A0%95%ED%95%9C" target="_blank">더보기</a></p>
+                    </div>
+                    <div class="box01">
+                    <button><img src="./images/jo1.png"  alt=""></button>
+                    <p>이름 : JOSHUA(홍지수)<br/>
+                    포지션 :보컬팀,<br/> 서브보컬<br/>
+                    MBTI : ENFJ<br/><a href="https://namu.wiki/w/%EC%A1%B0%EC%8A%88%EC%95%84(%EC%84%B8%EB%B8%90%ED%8B%B4)" target="_blank">더보기</a></p>
+                    </div>
+                    <div class="box01">
+                    <button><img src="./images/jun1.png" alt=""></button>
+                    <p>이름 : JUN(문준휘,<br/>Wén Jùnhuī)<br/>
+                    포지션 : 퍼포먼스팀,<br/> 댄서, 서브보컬<br/>
+                    MBTI : ESFP<br/><a href="https://namu.wiki/w/%EC%A4%80(%EC%84%B8%EB%B8%90%ED%8B%B4)" target="_blank">더보기</a></p>
+                    </div>  
+                    <div class="box01">
+                    <button><img src="./images/hosi1.png" alt=""></button>
+                    <p>이름 : HOSHI(권순영)<br/>
+                    포지션 : 퍼포먼스팀 리더, 메인댄서, 서브보컬<br/>
+                    MBTI : INFP<br/><a href="https://namu.wiki/w/%ED%98%B8%EC%8B%9C" target="_blank">더보기</a></p>
+                    </div>
+                    <div class="box01">
+                    <button><img src="./images/won1.png"  alt=""></button>
+                    <p>이름 : wonwoo(전원우)<br/>
+                    포지션 : 힙합팀, 래퍼<br/>
+                    MBTI : INFJ<br/><a href="https://namu.wiki/w/%EC%9B%90%EC%9A%B0" target="_blank">더보기</a></p>
+                    </div>
+                    <div class="box01">
+                    <button><img src="./images/woozi1.png"  alt=""></button>
+                    <p>이름 : WOOZI(이지훈)<br/>
+                    포지션 : 프로듀서,<br/>보컬팀 리더, 리드보컬<br/>
+                    MBTI : INFJ<br/><a href="https://namu.wiki/w/%EC%9A%B0%EC%A7%80(%EC%84%B8%EB%B8%90%ED%8B%B4)" target="_blank">더보기</a></p>
+                    </div>
+                    <div class="box01">
+                    <button><img src="./images/the81.png"  alt=""></button>
+                    <p>이름 : THE 8(서명호, Xú Mínghào)<br/>
+                    포지션 : 퍼포먼스팀,<br/>댄서, 서브보컬<br/>
+                    MBTI : INFJ<br/><a href="https://namu.wiki/w/%EB%94%94%EC%97%90%EC%9E%87" target="_blank">더보기</a></p>
+                    </div>
+                    <div class="box01">
+                    <button><img src="./images/min1.png" alt=""></button>
+                    <p>이름 : MINGYU(김민규)<br/>
+                    포지션 : 힙합팀, 래퍼<br/>
+                    MBTI : ENFJ<br/><a href="https://namu.wiki/w/%EB%AF%BC%EA%B7%9C(%EC%84%B8%EB%B8%90%ED%8B%B4)" target="_blank">더보기</a></p>
+                    </div>
+                    <div class="box01">
+                    <button><img src="./images/do1.png"  alt=""></button>
+                    <p>이름 : DK(김도겸)<br/>
+                    포지션 : 메인보컬,<br/>보컬팀, 부석순 리더<br/>
+                    MBTI : INFP<br/><a href="https://namu.wiki/w/%EB%8F%84%EA%B2%B8(%EC%84%B8%EB%B8%90%ED%8B%B4)" target="_blank">더보기</a></p>
+                    </div>
+                    <div class="box01">
+                    <button><img src="./images/boo1.png" alt=""></button>
+                    <p>이름 : SEUNGKWAN(부승관)<br/>
+                    포지션 : 보컬팀,<br/>메인보컬<br/>
+                    MBTI : ENFP<br/><a href="https://namu.wiki/w/%EC%8A%B9%EA%B4%80" target="_blank">더보기</a></p>
+                    </div>
+                    <div class="box01">
+                    <button><img src="./images/vernon1.png"  alt=""></button>
+                    <p>이름 : VERNON(최한솔)<br/>
+                    포지션 : 힙합팀, 래퍼<br/>
+                    MBTI : ISTP<br/><a href="https://namu.wiki/w/%EB%B2%84%EB%85%BC(%EC%84%B8%EB%B8%90%ED%8B%B4)" target="_blank">더보기</a></p>
+                     </div>
+                     <div class="box01">
+                    <button><img src="./images/dino1.png"  alt=""></button>
+                    <p>이름 : DINO(이찬)<br/>
+                    포지션 : 퍼포먼스팀,<br/>메인댄서, 래퍼,<br/>서브보컬<br/>
+                    MBTI : ENFJ / INFJ<br/><a href="https://namu.wiki/w/%EB%94%94%EB%85%B8(%EC%84%B8%EB%B8%90%ED%8B%B4)" target="_blank">더보기</a></p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="third">
+        <h2>Discography</h2>
+        <div class="third_bg" id="splash">
+            <div class="mobile_album">
+                <h3>Mini 11st album</h3>
+                <div class="box01">
+                    <button><img src="./images/MUSICGOD.jpg" alt=""></button>
+                    <p>
+                        1. SOS (prod. Marshmello)</br>
+                        2. 음악의 신 (TITLE)</br>
+                        3. Diamond Days</br>
+                        4. Back 2 Back</br>
+                        5. Monster</br>
+                        6. 하품 (Yawn)</br>
+                        7. HeadLiner</br>
+                        8.음악의 신 (God of Music)(Inst)</p>
+                </div>
+                <h3>Mini 10st album</h3>
+                <div class="box01">
+                    <button><img src="./images/fml.png" alt=""></button>
+                    <p>
+                        1. Fxck My Life</br>
+                        2. 손오공(Super) (TITLE)</br>
+                        3. Fire</br>
+                        4. I don't Understand But I Luv U</br>
+                        5. 먼지 (Dust)</br>
+                        6. April shower</br>
+                    </p>
+                </div>
+                <h3>Regular 4st album(Repackage)</h3>
+                <div class="box01">
+                    <button><img src="./images/world.jpg" alt=""></button>
+                    <p>
+                        1. 돌고 돌아 (Circles)</br>
+                        2. WORLD (TITLE)</br>
+                        3. Fallin' Flower(k.ver)</br>
+                        4. CHEERS</br>
+                        5. Darl+ing</br>
+                        6. HOT</br>
+                        7. DON QUIXOTE</br>
+                        8. Domino</br>
+                        9. Shadow</br>
+                        10. 노래해</br>
+                        11. IF you leave me</br>
+                        12. Ash</br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="pc_album">
+                <div class="pc-slider">
+                    <a href="https://namu.wiki/w/%EC%84%B8%EB%B8%90%ED%8B%B4/%EC%9D%8C%EB%B0%98%20%EB%AA%A9%EB%A1%9D" target="_blank"><div class="slide__bg">
+                        <img src="./images/MUSICGOD.jpg" alt="">
+                        <img src="./images/fml.png" alt="">
+                        <img src="./images/world.jpg" alt="">
+                        <img src="./images/attaca.jpg" alt="">
+                        <img src="./images/face.webp" alt="">
+                        <img src="./images/8th.webp" alt="">
+                        <img src="./images/7th.webp" alt="">
+                        <img src="./images/6th.webp" alt="">
+                    </div></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="fourth">
+        <!-- music videon -->
+        <div class="fourth_mv">
+            <h3>Musci Video</h3>
+            <!-- videos -->
+            <div class="video1">
+                <iframe  src="https://www.youtube.com/embed/zSQ48zyWZrY?si=r7LAMo8hmmvXky--" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+            </div>
+            <div class="video2">
+                <iframe  src="https://www.youtube.com/embed/-GQg25oP0S4?si=zy4D_lzspoYnwyJ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+            </div>
+        </div>
+        <!-- award record -->
+        <div class="fourth_award">
+            <h3>Awards</h3>
+            <!-- awards -->
+            <div class="a">
+                <div class="award1">
+                    <p>2023 - 제 12회 써클차트 뮤직 어워즈 올해의 남자 그룹상</p>
+                    <p>2023 - 제12회 써클차트 뮤직 어워즈 피지컬앨범부문 올해의 가수</p>
+                    <p>2023 - 제 32회 서울가요대상 본상</p>
+                    <p>2023 - 엠넷 마마어워즈 대상 올해의 앨범상</p>
+                    <p>2023 - 37회 골든디스크 어워즈 음반부문 본상</p>
+                    <p>2023 - 37회 골든디스크 어워즈 베스트 퍼포먼스상</p>
+                    <p>2023 - 37회 골든디스크 어워즈 타이 케이팝 아티스트</p>
+                </div>
+                <div class="award2">
+                    <p>2022 - 아시아 아티스트 어워즈 가수부문 대상 올해의 가수상</p>
+                    <p>2022 - 아시아 아티스트 어워즈 가수부문 페뷸러스상</p>
+                    <p>2022 - 아시아 아티스트 어워즈 가수부문 핫트렌드상</p>
+                    <p>2022 - 엠넷 아시안 뮤직 어워즈 베스트 댄스 퍼포먼스 남자 그룹</p>
+                    <p>2022 - 엠넷 아시안 뮤직 어워즈 월드와이드 팬스 초이스 TOP10</p>
+                    <p>2022 - 제14회 멜론뮤직어워드 TOP10</p>
+                    <p>2022 - 제31회 하이원 서울가요대상 본상</p>
+                </div>
+                <div class="award3">
+                    <p>2021 - 엠넷 아시안 뮤직 어워즈 가수부문 대상 올해의 가수상</p>
+                    <p>2021 - 아시아 아티스트 어워즈 가수부문 대상 올해의 가수상</p>
+                    <p>2021 - 아시아 아티스트 어워즈 가수부문 페뷸러스상</p>
+                    <p>2021 - 제30회 하이원 서울가요대상 본상</p>
+                    <p>2021 - 제10회 가온차트 뮤직 어워즈 피지컬앨범부문 올해의 가수상</p>
+                    <p>2021 - 제35회 골든디스크 어워즈 음반부문 본상</p>
+                    <p>2021 - 제17회 마마어워즈 Worldwide Fan's Choice</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="five">
+        <div class=".members">
+            <h3>Members Gallery</h3>
+        </div>
+        <div class="mp">
+            <div class="slider-container">
+                <div class="member_photo" id="slider1">
+                    <img src="./images/scoups1.png" alt="1">
+                    <img src="./images/jung1.png" alt="2">
+                    <img src="./images/jo1.png" alt="3">
+                    <img src="./images/jun1.png" alt="6">
+                    <img src="./images/hosi1.png" alt="4">
+                    <img src="./images/won1.png" alt="7">
+                    <img src="./images/woozi1.png" alt="5">
+                    <img src="./images/the81.png" alt="8">
+                    <img src="./images/min1.png" alt="9">
+                    <img src="./images/do1.png" alt="10">
+                    <img src="./images/vernon1.png" alt="11">
+                    <img src="./images/boo1.png" alt="12">
+                    <img src="./images/dino1.png" alt="13">
+                    <img src="./images/1.jpg" alt="14">
+                    <img src="./images/vocal.jpg" alt="15">
+                </div>
+                <div class="member_photo" id="slider2">
+                    <img src="./images/scoups2.jpg" alt="11">
+                    <img src="./images/jeong2.jpg" alt="22">
+                    <img src="./images/jo2.jpg" alt="33">
+                    <img src="./images/jun2.jpg" alt="44">
+                    <img src="./images/hoshi2.jpg" alt="55">
+                    <img src="./images/won2.jpg" alt="66">
+                    <img src="./images/woozi2.jpg" alt="77">
+                    <img src="./images/the82.jpg" alt="88">
+                    <img src="./images/min2.jpg" alt="99">
+                    <img src="./images/dk2.jpg" alt="1010">
+                    <img src="./images/vernon2.jpg" alt="1111">
+                    <img src="./images/boo2.jpg" alt="1212">
+                    <img src="./images/dino2.jpg" alt="1313">
+                    <img src="./images/2.jpg" alt="1414">
+                    <img src="./images/perfo.jpg" alt="1515">
+                </div>
+                <div class="member_photo" id="slider3">
+                    <img src="./images/scoups3.jpg" alt="111">
+                    <img src="./images/jeong3.jpg" alt="222">
+                    <img src="./images/jo3.jpg" alt="333">
+                    <img src="./images/jun3.jpg" alt="444">
+                    <img src="./images/hoshi3.jpg" alt="555">
+                    <img src="./images/won3.jpg" alt="666">
+                    <img src="./images/woozi3.jpg" alt="777">
+                    <img src="./images/the83.jpg" alt="888">
+                    <img src="./images/min3.jpg" alt="999">
+                    <img src="./images/dk3.jpg" alt="101010">
+                    <img src="./images/vernon3.jpg" alt="111111">
+                    <img src="./images/boo3.jpg" alt="121212">
+                    <img src="./images/dino3.jpg" alt="131313">
+                    <img src="./images/4.jpg" alt="141414">
+                    <img src="./images/hip.jpg" alt="151515">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <img src="./images/pledis.png" alt="">
+        <p>Copyright(c) 2017 PLEDIS ENTERTAINMENT. All rights reserved</p>
+    </footer>
+
+    <div id="stickyBar" class="stick_img">
+        <a href="https://cafe.daum.net/pledis-17" target="_blank"><img src="./images/fan.svg" alt=""></a>
+        <a href="https://www.facebook.com/seventeennews" target="_blank"><img src="./images/facebook.svg" alt="facebook"></a>
+        <a href="https://www.instagram.com/saythename_17/" target="_blank"><img src="./images/insta.svg" alt=""></a>
+        <a href="https://twitter.com/pledis_17" target="_blank"><img src="./images/twitter.svg" alt=""></a>
+        <a href="https://www.youtube.com/user/pledis17" target="_blank"><img src="./images/youtube.svg" alt=""></a>
+        <a href="https://weverse.io/seventeen/feed" target="_blank"><img src="./images/weverse.svg" alt=""></a>
+        <a href="https://www.tiktok.com/@seventeen17_official" target="_blank"><img src="./images/tiktok.svg" alt=""></a>
+        <button class="canvasBtn" id="startButton"><img src="./images/pngwing.com.png" alt=""></button>
+    </div>
+
+
+    <button id="topButton">Top</button>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="./js/index2.js"></script>
+    <script src="./js/index.js"></script>
+    <canvas id="canvas"></canvas>
+    <script src="./js/jquery.js"></script>
+</body>
+
+
+</html>
